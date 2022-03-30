@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/autoComplete"
+        android:completionHint="선택하세요"
+        android:completionThreshold="2"
+        android:hint="자동완성텍스트뷰"/>
+    <MultiAutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/multiAutoCompleteTextView1"
+        android:completionHint="선택하세요"
+        android:completionThreshold="2"
+        android:hint="멀티 자동완성텍스트뷰"/>
+    <ProgressBar
+        style="?android:progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:max = "100"
+        android:progress="20"
+        android:secondaryProgress="50"/>
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:progress="20"/>
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:numStars="5"
+        android:rating="1.5"
+        android:stepSize="0.5"/>
+
+
+</LinearLayout>
