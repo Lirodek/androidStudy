@@ -27,9 +27,26 @@ public class MainActivity extends AppCompatActivity {
 
             Bitmap picture = BitmapFactory.decodeResource(getResources(),
                     R.drawable.elaina);
+
+            int cenX = this.getWidth() / 2;
+            int cenY = this.getHeight() / 2;
             int picX = (this.getWidth() - picture.getWidth()) / 2;
             int picY = (this.getHeight() - picture.getHeight()) / 2;
             canvas.drawBitmap(picture, picX, picY, null);
+
+//            canvas.rotate(45, cenX, cenY);
+//            canvas.drawBitmap(picture, picX, picY, null);
+//
+//            canvas.scale(1,1,cenX,cenY);
+//            canvas.drawBitmap(picture, picX, picY, null);
+
+//            canvas.translate(-150,200);
+//            canvas.drawBitmap(picture, picX, picY, null);
+
+            canvas.skew(3.3f, 3.3f);
+            canvas.drawBitmap(picture, picX, picY, null);
+
+
             picture.recycle();
         }
     }
