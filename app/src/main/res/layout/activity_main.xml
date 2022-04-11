@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="5">
+
+        <ImageView
+            android:id="@+id/elaina0"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/elaina" />
+
+        <ImageView
+            android:id="@+id/shikimori1"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:src="@drawable/shikimori" />
+        <ImageView
+            android:id="@+id/chizru2"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/chizru"
+            android:scaleType="fitXY"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="5">
+
+        <ImageView
+            android:id="@+id/chika3"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/chika" />
+
+        <ImageView
+            android:id="@+id/nino4"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:src="@drawable/nino" />
+        <ImageView
+            android:id="@+id/sena5"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sena"
+            android:scaleType="fitXY"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/irohas6"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/irohas" />
+
+        <ImageView
+            android:id="@+id/utaha7"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:src="@drawable/utaha" />
+        <ImageView
+            android:id="@+id/frenda8"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/frenda"
+            android:scaleType="fitXY"/>
+    </LinearLayout>
+
+
+</LinearLayout>
