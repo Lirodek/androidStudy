@@ -3,12 +3,8 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/third"
     android:background="@drawable/elaina3">
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Thid Activity (close)"
-        android:id="@+id/btn2"/>
 
 
 

@@ -4,23 +4,24 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.LinearLayout;
 
 import androidx.annotation.Nullable;
 
 public class ThirdAcitivity extends Activity {
-    Button btn;
+    LinearLayout third;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.third_activity);
-        btn = (Button) findViewById(R.id.btn2);
-
-        btn.setOnClickListener(new View.OnClickListener() {
+        third = findViewById(R.id.third);
+        third.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 finish();
             }
         });
+
 
     }
 }
