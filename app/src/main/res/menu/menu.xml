@@ -5,7 +5,11 @@
     tools:ignore="MissingDefaultResource">
     <item
         android:id="@+id/end"
-        android:title="선택완료"
+        android:title="순위보기"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:id="@+id/end2"
+        android:title="명예의 전당"
         app:showAsAction="collapseActionView"/>
 
 </menu>

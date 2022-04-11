@@ -59,12 +59,19 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        Intent intent;
         switch(item.toString()) {
-            case "선택완료":
-                Intent intent = new Intent(getApplicationContext(), ResultActivity.class);
+            case "순위보기":
+                intent = new Intent(getApplicationContext(), ResultActivity.class);
                 intent.putExtra("VoteCount", voteCount);
                 startActivity(intent);
                 break;
+            case "명예의 전당":
+                intent = new Intent(getApplicationContext(), FilipperActivity.class);
+                intent.putExtra("VoteCount", voteCount);
+                startActivity(intent);
+                break;
+
 
         }
         return true;

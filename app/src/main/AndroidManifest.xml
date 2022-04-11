@@ -19,6 +19,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".ResultActivity" android:label = "투표결과"/>
+        <activity android:name=".FilipperActivity" android:label="투표보기"/>
     </application>
 
 </manifest>
