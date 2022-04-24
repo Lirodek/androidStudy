@@ -32,27 +32,14 @@ public class MainActivity extends TabActivity {
         setContentView(R.layout.activity_main);
 
         init();
+        tabInit();
+
         rbG.setOnCheckedChangeListener(radioGroupCheck);
-        webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("https://www.naver.com/");
-        btnGo.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                System.out.println(edtUrl.getText().toString());
-                webView.loadUrl(edtUrl.getText().toString());
-            }
-        });
+        btnGo.setOnClickListener(onClickGo);
+        btnBack.setOnClickListener(onClickBack);
 
-        btnBack.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                webView.goBack();
-            }
-        });
-
-
-
-
+    }
+    void tabInit(){
         TabHost tabHost = getTabHost();
 
         TabHost.TabSpec tabGender = tabHost.newTabSpec("Gender")
@@ -79,7 +66,22 @@ public class MainActivity extends TabActivity {
         btnBack = (Button) findViewById(R.id.btnBack);
         webView = (WebView) findViewById(R.id.webView1);
         edtUrl = (EditText) findViewById(R.id.edtUrl);
+
+        webView.setWebViewClient(new WebViewClient());
+        webView.loadUrl("https://www.naver.com/");
     }
+    View.OnClickListener onClickGo = new View.OnClickListener(){
+        @Override
+        public void onClick(View view) {
+            webView.loadUrl(edtUrl.getText().toString());
+        }
+    };
+    View.OnClickListener onClickBack = new View.OnClickListener(){
+        @Override
+        public void onClick(View view) {
+            webView.goBack();
+        }
+    };
 
     RadioGroup.OnCheckedChangeListener radioGroupCheck = new RadioGroup.OnCheckedChangeListener() {
         @Override
