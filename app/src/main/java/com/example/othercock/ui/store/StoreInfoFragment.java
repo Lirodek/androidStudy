@@ -1,31 +1,26 @@
-package com.example.othercock.ui.home;
+package com.example.othercock.ui.store;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.ViewModelProvider;
 
 import com.example.othercock.R;
-import com.example.othercock.databinding.FragmentHomeBinding;
 
-public class HomeFragment extends Fragment {
+public class StoreInfoFragment extends Fragment {
 
-    private FragmentHomeBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        View root = inflater.inflate(R.layout.fragment_home,container,false);
+        View root = inflater.inflate(R.layout.fragment_storeinfo,container,false);
         return root;
     }
 
     @Override
     public void onDestroyView() {
         super.onDestroyView();
-        binding = null;
     }
 }

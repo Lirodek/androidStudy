@@ -3,14 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/OtherCock/app/src/main/res/layout/activity_main.xml" value="0.33350703491401773" />
+        <entry key="..\:/OtherCock/app/src/main/res/layout/activity_main.xml" value="0.24722222222222223" />
         <entry key="..\:/OtherCock/app/src/main/res/layout/app_bar_main.xml" value="0.16145307769929365" />
         <entry key="..\:/OtherCock/app/src/main/res/layout/content_main.xml" value="0.3333333333333333" />
+        <entry key="..\:/OtherCock/app/src/main/res/layout/fragment_coopone.xml" value="0.22" />
+        <entry key="..\:/OtherCock/app/src/main/res/layout/fragment_gallery.xml" value="0.153125" />
         <entry key="..\:/OtherCock/app/src/main/res/layout/fragment_home.xml" value="0.276268115942029" />
+        <entry key="..\:/OtherCock/app/src/main/res/layout/fragment_menu.xml" value="0.1" />
+        <entry key="..\:/OtherCock/app/src/main/res/layout/fragment_order_history.xml" value="0.26856884057971014" />
         <entry key="..\:/OtherCock/app/src/main/res/layout/fragment_othermain.xml" value="0.3333333333333333" />
+        <entry key="..\:/OtherCock/app/src/main/res/layout/fragment_stemp.xml" value="0.3385416666666667" />
+        <entry key="..\:/OtherCock/app/src/main/res/layout/fragment_store_detail.xml" value="0.1175925925925926" />
+        <entry key="..\:/OtherCock/app/src/main/res/layout/fragment_storeinfo.xml" value="0.10625" />
         <entry key="..\:/OtherCock/app/src/main/res/layout/fragment_tier.xml" value="0.3333333333333333" />
+        <entry key="..\:/OtherCock/app/src/main/res/layout/full_menu.xml" value="0.153125" />
+        <entry key="..\:/OtherCock/app/src/main/res/layout/full_menu_item_row.xml" value="0.153125" />
         <entry key="..\:/OtherCock/app/src/main/res/layout/nav_header_main.xml" value="0.3333333333333333" />
         <entry key="..\:/OtherCock/app/src/main/res/menu/activity_main_drawer.xml" value="0.3333333333333333" />
+        <entry key="..\:/OtherCock/app/src/main/res/menu/main.xml" value="0.153125" />
       </map>
     </option>
   </component>

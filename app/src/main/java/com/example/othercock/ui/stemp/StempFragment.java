@@ -1,4 +1,4 @@
-package com.example.othercock.ui.home;
+package com.example.othercock.ui.stemp;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -11,21 +11,18 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.example.othercock.R;
-import com.example.othercock.databinding.FragmentHomeBinding;
 
-public class HomeFragment extends Fragment {
+public class StempFragment extends Fragment {
 
-    private FragmentHomeBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        View root = inflater.inflate(R.layout.fragment_home,container,false);
+        View root = inflater.inflate(R.layout.fragment_stemp,container,false);
         return root;
     }
 
     @Override
     public void onDestroyView() {
         super.onDestroyView();
-        binding = null;
     }
 }
