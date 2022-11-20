@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="MissingDefaultResource">
+    <item
+        android:id="@+id/end"
+        android:title="순위보기"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:id="@+id/end2"
+        android:title="명예의 전당"
+        app:showAsAction="collapseActionView"/>
+
+</menu>
