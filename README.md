@@ -1,0 +1,1 @@
+# androidAdapter11_5
